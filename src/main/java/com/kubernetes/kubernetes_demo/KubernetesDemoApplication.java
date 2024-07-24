@@ -11,7 +11,7 @@ public class KubernetesDemoApplication {
 
 	@GetMapping("/hello")
 	public String sayHello(){
-		return "Hello Omkar";
+		return "Hello World!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(KubernetesDemoApplication.class, args);
